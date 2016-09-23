@@ -5,6 +5,8 @@ package com.ensicaen.jeremielc.designPatterns.state;
  */
 public interface IPopState {
 
+    public final int ALL_MESSAGES = -1;
+
     public boolean user(String username);
     public boolean pass(String password);
     public void list(int num);

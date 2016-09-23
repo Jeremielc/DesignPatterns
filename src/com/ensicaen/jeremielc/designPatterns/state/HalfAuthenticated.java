@@ -43,7 +43,7 @@ public class HalfAuthenticated implements IPopState {
     public boolean quit() {
         ps.setUsername("");
         ps.setPassword("");
-        System.out.println("Deconnexion OK");
+        System.out.println("Disconnection OK");
         return true;
     }
 }

@@ -37,7 +37,7 @@ public class FullyAuthenticated implements IPopState {
         if (num < 0) {
             System.out.println("Retrieve all messages.");
         } else {
-            System.out.println("Retrive message " + num);
+            System.out.println("Retrieve message " + num);
         }
     }
 
@@ -45,7 +45,7 @@ public class FullyAuthenticated implements IPopState {
     public boolean quit() {
         ps.setPassword("");
         ps.setUsername("");
-        System.out.println("Deconnexion OK");
+        System.out.println("Disconnection OK");
         return true;
     }
 }
